@@ -1,3 +1,7 @@
+#99067718
+#Emiel 't Lam
+
+
 invoer = input("Is de kaas geel? y/n: ").upper()
 
 
