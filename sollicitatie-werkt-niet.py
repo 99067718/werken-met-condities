@@ -4,7 +4,7 @@ print("")
 naam = input("Wat is uw Naam? : ")
 
 #onzinvraag 1
-kat = input("Heeft u wel eens een kat door de wc gespoeld? ")
+input("Heeft u wel eens een kat door de wc gespoeld? ")
 
 aw1 = int(input("Hoeveel jaar praktijk ervaring heb je met acrobatiek? "))
 MBO = input("Heeft u een MBO diploma?(beantwoord met y/n): ").upper()
@@ -39,7 +39,7 @@ aw8 = input("Heeft u een certificaat \"overleven met gevaarlijk personeel?\"(bea
 
 print("We zijn uw resultaat aan het berekenen.")
 
-if aw1 >= 4 and aw2 >= 4 and aw3[0] == "Y" and aw4[0] == "Y" and aw5 == "Y" and aw6 >= 150 and aw7 >= 90 and aw8 == "Y":
+if aw1 >= int(4) and aw2 >= int(4) and aw3[0] == "Y" and aw4[0] == "Y" and aw5 == "Y" and aw6 >= int(150) and aw7 >= int(90) and aw8 == "Y":
     print("Gefeliciteerd," + naam + " u voldoet aan al onze eisen!!!")
 else:
     print("Sorry, "+ naam + " maar u voldoet niet aan onze eisen.")
