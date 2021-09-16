@@ -160,16 +160,17 @@ else:
         print(int(nmmr2)+ " is groter dan "+ str(nmmr1))
     elif nmmr2 == 0 and nmm1 == 0:
         print("You devided 0 by 0, and you created a black hole.")
-        print("GAME OVER!!!")
+        print("☝︎✌︎💣︎☜︎ ⚐︎✞︎☜︎☼︎✏︎✏︎✏︎")
     elif nmmr2 >= 100000 or nmmr1 >= 100000:
         print("You overloaded the calculator, and it exploded.")
-        print("GAME OVER")
+        print("GAME OVER!!!")
     else:
         print("The numbers are equal")
     print("")
     nmmr3 = int(input("Fill in another number"))
     nmmr4 = int(input("Fill in another number"))   
-    print("☟☜☹☹⚐ ☟⚐🕈 ✌☼☜ ✡⚐🕆")
+    print("The calculator batteries died...")
+    print('GAME OVER!!!')
 
 
 
